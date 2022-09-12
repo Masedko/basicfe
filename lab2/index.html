@@ -6,37 +6,91 @@
         <meta name="keywords" content="Гладкий, ІО-01, Андрій, Лабораторна, №2">
         <meta name="description" content="Лабораторна робота №2 Гладкого Андрія">
         <link rel="stylesheet" href="style.css">
+        <style>
+            table, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            table {
+                height: 20%;
+                width: 33%;
+            }
+            td {
+                width: 20%;
+                text-align: center;
+            }
+            tr:first-child {
+                background-color: #368f8f;
+            }
+            tr:nth-child(2) {
+                background-color: #f5f536;
+            }
+            tr:first-child:hover {
+                color: white;
+                background-color: #c97070;
+            }
+            tr:nth-child(2):hover {
+                color: white;
+                background-color: #0a0ac9;
+            }
+        </style>
     </head>
     <body>
         <table class="table">
-            <tr class="row_1">
+            <tr>
                 <td rowspan="2">Гладкий</td>
                 <td colspan="2">Андрій</td>
                 <td>ІО-01</td>
                 <td>&nbsp</td>
             </tr>
-            <tr class="row_2">  
+            <tr>  
                 <td rowspan="2">ІО-01</td>
                 <td rowspan="2">ЛР-2</td>
                 <td rowspan="3"> Варіант 6</td>
                 <td>&nbsp</td>
             </tr>
-            <tr class="other_row">
+            <tr>
                 <td>&nbsp</td>
                 <td rowspan="2">&nbsp</td>
             </tr>
-            <tr class="other_row">
+            <tr>
                 <td>&nbsp</td>
                 <td>&nbsp</td>
                 <td>&nbsp</td>
             </tr>
         </table>
         <p>Position</p>
-        <div class="phone" id="position">
-            
+        <div class="phone">
+            <div class="display position-display">
+                <p class="time position-time">12:00</p>
+            </div>
+            <div class="position-buttons">
+                <div class="button position-button"></div>
+                <div class="button position-button"></div>
+                <div class="button position-button"></div>
+                <div class="button position-button"></div>
+                <div class="button position-button"></div>
+                <div class="button position-button"></div>
+                <div class="button position-button"></div>
+                <div class="button position-button"></div>
+                <div class="button position-button"></div>
+        </div>
         </div>
         <p>Transform</p>
-        <div class="phone" id="transform">
-            
+        <div class="phone transform">
+            <div class="display transform-display">
+                <p class="time transform-time">12:00</p>
+            </div>
+            <div class="transform-buttons">
+                <div class="button transform-button"></div>
+                <div class="button transform-button"></div>
+                <div class="button transform-button"></div>
+                <div class="button transform-button"></div>
+                <div class="button transform-button"></div>
+                <div class="button transform-button"></div>
+                <div class="button transform-button"></div>
+                <div class="button transform-button"></div>
+                <div class="button transform-button"></div>
+        </div>
         </div>
     </body>
