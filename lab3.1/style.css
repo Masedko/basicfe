@@ -1,0 +1,45 @@
+.wrapper{
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+p{
+    margin: 0;
+}
+
+div {
+    text-align: center;
+}
+
+/* Better to use flexbox */
+.center-vertically{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.first-text{
+    background-color: #70a7df;
+    height: 17%;
+}
+
+.first-img{
+    background-color: #fac0f6;
+    height: 17%;
+}
+
+.second-img{
+    background-color: #bce68b;
+    float: left;
+    height: 66%;
+    width: 75%;
+}
+
+.second-text{
+    background-color: #93b071;
+    float: right;
+    height: 66%;
+    width: 25%;
+}
