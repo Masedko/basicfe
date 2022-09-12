@@ -21,25 +21,30 @@ div {
 .first-text{
     background-color: #70a7df;
     flex-grow:3;
+    flex-basis: 0;
 }
 
 .first-img{
     background-color: #fac0f6;
     flex-grow:3;
+    flex-basis: 0;
 }
 
 .bottom{
     flex-grow:14;
+    flex-basis: 0;
 }
 
 .second-img{
     background-color: #bce68b;
     flex-grow:3;
     height: 100%;
+    flex-basis: 0;
 }
 
 .second-text{
     background-color: #93b071;
     flex-grow:1;
     height: 100%;
+    flex-basis: 0;
 }
