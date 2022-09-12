@@ -1,0 +1,40 @@
+table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table {
+    height: 20%;
+    width: 33%;
+}
+td {
+    width: 20%;
+    text-align: center;
+}
+.row_1 {
+    background-color: #368f8f;
+}
+.row_2 {
+    background-color: #f5f536;
+}
+.row_1:hover {
+    color: white;
+    background-color: #c97070;
+}
+.row_2:hover {
+    color: white;
+    background-color: #0a0ac9;
+}
+.phone {
+    border-radius: 16px;
+    background-color: #d6e3bc;
+    width: 94px;
+    height: 167px;
+}
+.phone_display{
+    position: relative;
+    border-radius: 16px;
+    background-color: white;
+    top:30px;
+    left:40px;
+}
+/* 78*84 */
