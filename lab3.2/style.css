@@ -20,16 +20,16 @@ div {
 
 .first-text{
     background-color: #70a7df;
-    flex-grow:1;
+    flex-grow:3;
 }
 
 .first-img{
     background-color: #fac0f6;
-    flex-grow:1;
+    flex-grow:3;
 }
 
 .bottom{
-    flex-grow:4;
+    flex-grow:14;
 }
 
 .second-img{

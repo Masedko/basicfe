@@ -22,24 +22,24 @@ div {
 
 .first-text{
     background-color: #70a7df;
-    height: 17%;
+    height: 15%;
 }
 
 .first-img{
     background-color: #fac0f6;
-    height: 17%;
+    height: 15%;
 }
 
 .second-img{
     background-color: #bce68b;
     float: left;
-    height: 66%;
+    height: 70%;
     width: 75%;
 }
 
 .second-text{
     background-color: #93b071;
     float: right;
-    height: 66%;
+    height: 70%;
     width: 25%;
 }
