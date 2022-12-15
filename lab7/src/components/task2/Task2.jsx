@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import GoodsCard from "./GoodsCard";
 import classes from "./Task2.module.css"
 
