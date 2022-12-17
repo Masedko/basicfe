@@ -1,3 +1,3 @@
 # Лабораторна робота №7 з курсу “Основи Front-end технологій” 
 Тема: “Робота з React.JS. Створення та робота з компонентами. Робота з props.”
-[Open](https://masedko.github.io/basicfe/lab7/build/)
+[Open](https://masedko.github.io/basicfe/lab7/build)
