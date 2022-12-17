@@ -7,7 +7,7 @@
     "main.65b7d873.js.map": "/basicfe/lab7/build/static/js/main.65b7d873.js.map"
   },
   "entrypoints": [
-    "static/css/main.625f3c69.css",
-    "static/js/main.65b7d873.js"
+    "/basicfe/lab7/build/static/css/main.625f3c69.css",
+    "/basicfe/lab7/build/static/js/main.65b7d873.js"
   ]
 }
