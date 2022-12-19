@@ -361,12 +361,14 @@ a.text-primary {
   top: 40%; }
 
 .burger.active:before {
+  transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=5);
   /*for IE*/ }
 
 .burger.active:after {
+  transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=-5);
@@ -890,6 +892,12 @@ a.text-primary {
   position: relative;
   border-radius: 50%;
   background: #f8f9fa; }
+
+.play-button {
+  width: 75%;
+  margin-right: 50%;
+}
+
 
 .video-wrap {
   position: relative; }
